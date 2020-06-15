@@ -16,7 +16,7 @@ humans = [
     Human("Eve", 26),
     Human("Frank", 18),
     Human("Glenn", 42),
-    Human("Harrison", 12),
+    Human("Harrison", 12)
     Human("Igon", 41),
     Human("David", 31),
 ]
