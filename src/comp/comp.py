@@ -6,7 +6,7 @@ class Human:
         self.age = age
 
     def __repr__(self):
-        return f"<Human: {self.name}, {self.age}>"
+        return f"Human: {self.name}, {self.age}"
 
 humans = [
     Human("Alice", 29),
@@ -16,7 +16,7 @@ humans = [
     Human("Eve", 26),
     Human("Frank", 18),
     Human("Glenn", 42),
-    Human("Harrison", 12)
+    Human("Harrison", 12),
     Human("Igon", 41),
     Human("David", 31),
 ]
@@ -24,7 +24,7 @@ humans = [
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with 'D':
 print("Starts with D:")
-a = [name[0] for name in humans if name[0][0]=='D']
+a = [human.name for human in humans if human.name[0] =='D']
 print(a)
 
 # Write a list comprehension that creates a list of names of everyone
