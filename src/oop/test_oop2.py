@@ -1,6 +1,7 @@
 import unittest
 from oop2 import *
 
+
 class Oop2Tests(unittest.TestCase):
   def setUp(self):
     self.ground_vehicle = GroundVehicle()
